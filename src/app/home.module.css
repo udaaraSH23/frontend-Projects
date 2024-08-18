@@ -1,0 +1,28 @@
+.containerHome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading{
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top:30px;
+}
+
+.tools{
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

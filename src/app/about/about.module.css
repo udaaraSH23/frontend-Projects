@@ -1,0 +1,80 @@
+.para{
+    width: 50%;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top:10px;
+    letter-spacing: 1%;
+
+}
+
+.topBottom{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.bottom{
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.content{
+  opacity: 0;
+  animation: slideInFromBottom 1s ease-in forwards;
+}
+
+@keyframes slideInFromBottom {
+    0% {
+      
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+  .bulb {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+    text-align: center;
+  }
+  
+  .bulbIcon {
+    font-size: 100px;
+    color: #f1c40f;
+    animation: flicker 1.5s infinite alternate ease-in-out, glow 2s infinite;
+  }
+  
+  @keyframes flicker {
+    0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+      opacity: 0.99;
+      text-shadow: none;
+    }
+    20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+      opacity: 0.4;
+      text-shadow: none;
+    }
+  }
+  
+  @keyframes glow {
+    0%, 100% {
+      text-shadow: 0 0 20px rgba(241, 196, 15, 0.8),
+                   0 0 30px rgba(241, 196, 15, 0.6),
+                   0 0 40px rgba(241, 196, 15, 0.5),
+                   0 0 50px rgba(241, 196, 15, 0.4),
+                   0 0 60px rgba(241, 196, 15, 0.3),
+                   0 0 70px rgba(241, 196, 15, 0.2);
+    }
+    50% {
+      text-shadow: 0 0 10px rgba(241, 196, 15, 0.7),
+                   0 0 20px rgba(241, 196, 15, 0.5),
+                   0 0 30px rgba(241, 196, 15, 0.4),
+                   0 0 40px rgba(241, 196, 15, 0.3),
+                   0 0 50px rgba(241, 196, 15, 0.2),
+                   0 0 60px rgba(241, 196, 15, 0.1);
+    }
+  }
+  

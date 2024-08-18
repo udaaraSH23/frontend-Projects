@@ -1,0 +1,19 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+
+}
+
+.par{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 20px auto;
+}

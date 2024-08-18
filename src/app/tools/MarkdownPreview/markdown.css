@@ -1,0 +1,87 @@
+.container {  
+    margin-left: 0;
+  }
+  
+  .title {
+    margin-top: 30px;
+    text-align: center;
+    padding: 1.5rem;
+    color: #000000; /* Blue color similar to Bootstrap's primary color */
+  }
+  
+  .content {
+    display: flex;
+    height: 80vh;
+    width: 100%;
+  }
+  
+  .editor-container,
+  .preview-container {
+    margin: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f8ff; /* light blue background similar to 'bg-info-subtle' */
+    border-radius: 8px;
+  }
+  
+  .editor-header,
+  .preview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #6c757d; /* Dark gray background */
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .editor-title,
+  .preview-title {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .copy-button {
+    padding: 0.5rem 1rem;
+    background-color: #343a40; /* Darker gray */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .copy-button:hover {
+    background-color: #23272b; /* Slightly darker on hover */
+  }
+  
+  .editor-textarea {
+    flex-grow: 1;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    border: 1px solid #ced4da; /* light gray border */
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .preview-container {
+    background-color: #d4edda; /* light green background similar to 'bg-success-subtle' */
+  }
+  
+  .preview-header {
+    background-color: #28a745; /* Green background */
+    color: white;
+  }
+  
+  .preview-content {
+    flex-grow: 1;
+    overflow:auto;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
