@@ -1,5 +1,5 @@
 import styles from "./home.module.css";
-import Slider from "./slider/Slider";
+import Slider from "./slider/slider";
 import Cogweels from "./components/cogweels";
 
 
