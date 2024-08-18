@@ -11,9 +11,11 @@ const Contact = () => {
         If you have any questions, inquiries, or just want to get in touch, feel
         free to reach out! 
         <br></br>
-        Name: Udara Shauka Email: Udarasenarath875@gmail.com
+        Name: <i>Udara Shanuka</i>
+        <br></br> 
+        Email:<i>Udarasenarath875@gmail.com</i> 
         <br></br>
-        Website: udarashanuka.works
+        Website: <i> udarashanuka.works</i>
         <br></br>
          I'm looking forward to hearing from you!
       </p>
